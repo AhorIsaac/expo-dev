@@ -1,4 +1,5 @@
 import Header from "./Header";
 import TodoItem from "./TodoItem";
+import AddTodo from "./AddTodo";
 
-export { Header, TodoItem };
+export { Header, TodoItem, AddTodo };

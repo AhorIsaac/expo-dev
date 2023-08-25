@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginTop: 16,
     borderColor: "#777",
-    borderwidth: 1,
+    borderWidth: 1,
     borderStyle: "dashed",
     borderRadius: 10,
     backgroundColor: "#ccc",
