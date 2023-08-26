@@ -8,7 +8,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
 } from "react-native";
-import { Header, TodoItem, AddTodo } from "./components";
+import { Header, TodoItem, AddTodo, Sandbox } from "./components";
 
 const App = () => {
   const [todos, setTodos] = useState([
@@ -41,6 +41,7 @@ const App = () => {
   };
 
   return (
+    // <Sandbox />
     <TouchableWithoutFeedback onPress={dismissKeyboard}>
       <View style={styles.container}>
         {/* header */}
@@ -72,8 +73,10 @@ const styles = StyleSheet.create({
   },
   content: {
     padding: 40,
+    flex: 1,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   },
 });
